@@ -12,41 +12,49 @@
 </head>
 
 <body>
-    <div class="background">
-        <img src="IMG/Pokemon Clouds Wallpaper 1280x1024 Pokemon Clouds Pixel Art.jpg" alt="">
-        <div class="container-init">
-
-            <div class="presentation">
-                <h1>Pokemon<i>Quiz</i></h1>
-                <div class="conteiner-texto">
-                    <p>Este juego pondra tus conocimientos de pokemon a los limites! Prueba y llega al campeonato, pasando atraves de tus inicios y afrontando los desafios de este mundo desafiante.</p>
-                </div>
-    
-                <div class="controls">
-                    <p>Controles:</p>
-                    <div class="keys">
-                        <div class="key"><i class="fas fa-arrow-left"></i></div>
-                        <div class="key"><i class="fas fa-arrow-right"></i></div>
+    <main>
+        <div class="background">
+            <img class="nube" src="IMG/nubes1.png" alt="">
+            <img class="fondo" id="nube" src="IMG/fondo.png" alt="">
+            <img class="hojas" id="pasto" src="IMG/hojas.png" alt="">
+            <div class="pokemon" id="evee">
+                <img class="pokemonEve pixelart" src="IMG/plantillaeeveeframes.png" alt="">
+            </div>
+            <div class="container-init">
+                
+                <div class="presentation">
+                    <h1>Pokemon<i>Quiz</i></h1>
+                    <div class="conteiner-texto">
+                        <p>Este juego pondra tus conocimientos de pokemon a los limites! Prueba y llega al campeonato, pasando atraves de tus inicios y afrontando los desafios de este mundo desafiante.</p>
+                    </div>
+        
+                    <div class="controls">
+                        <p>Controles:</p>
+                        <div class="keys">
+                            <div class="key"><i class="fas fa-arrow-left"></i></div>
+                            <div class="key"><i class="fas fa-arrow-right"></i></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="quiz">
-                <hr>
-                <h2 id="question">JiJaJa</h2>
-    
-                <div class="quiz-main" id="choices">
-    
-                </div>
-                <hr>
-                <div class="quiz-footer" id="choices">
-                    <p id="progress">question X of Y</p>
-                </div>
-            </div>
-
-        </div>
+                <div class="quiz">
+                    <hr>
+                    <h2 id="question">JiJaJa</h2>
         
-    </div>
+                    <div class="quiz-main" id="choices">
+        
+                    </div>
+                    <hr>
+                    <div class="quiz-footer" id="choices">
+                        <p id="progress">question X of Y</p>
+                    </div>
+                </div>
+    
+            </div>
+            
+        </div>
 
+    </main>
+    <script src="app.js"></script>
 </body>
 
 </html>

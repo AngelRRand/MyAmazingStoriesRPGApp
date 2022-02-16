@@ -6,24 +6,84 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
+.background{
+    height: 100vh;
+}
 .background img{
     position: absolute;
-    max-height: 100vh;
-    width: 100vw;
-    z-index: 1;
+    width: 300vw;
+    height: 100%;
+    z-index: 2;
 }
+.background .nube{
+    position: absolute;
+    z-index: 4;
+}
+.background .hojas{
+    position: relative;
+    z-index: 10;
+}
+:root {
+    --pixel-size: 6;
+}
+.pokemon{
+    width: calc(44px * var(--pixel-size));
+   height: calc(40px * var(--pixel-size));
+   overflow: hidden;
+   position: relative;
+   margin: 4em auto;
+   z-index: 9;
+   bottom: 69vh;
+   right: 30vw;
+}
+.pokemon img{
+    width: auto;
+    height: 1000px;
+}
+.pokemonEve{
+    animation: moveSpritesheet 0.8s steps(5) infinite;
+   width: calc(128px * var(--pixel-size));
+   position: absolute;
+   z-index: 60;
+}
+
+.pixelart {
+    image-rendering: pixelated;
+ }
+ 
+.face-right {
+    top: calc(-42px * var(--pixel-size));
+ }
+ .face-up {
+    top: calc(-64px * var(--pixel-size));
+ }
+ .face-left {
+    top: calc(-96px * var(--pixel-size));
+ }
+ 
+ 
+ @keyframes moveSpritesheet {
+    from {
+       transform: translate3d(0px,0,0)
+    }
+    to {
+       transform: translate3d(-100%,0,0)
+    }
+ }
 .container-init{
     display: flex;
-    position: relative;
-    padding: 30px;
-    z-index: 10;
+    position: absolute;
+    top: 20px;
+    z-index: 100;
+    width: 200vw;
 }
 .presentation{
     position: relative;
     padding: 30px;
     width: 25rem;
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%, rgba(80, 83, 235, 0.219) 0%, rgba(67, 167, 201, 0.26) 100.2% );
+    border-radius: 15px;
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%, rgba(80, 83, 235, 0.219) 0%, rgba(67, 167, 201, 0.26) 100.2% );
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -40,6 +100,7 @@
 }
 .conteiner-texto{
     margin-bottom: 30px;
+    color: black;
 }
 .controls{
     display: flex;
@@ -61,24 +122,24 @@
     margin: 10px 30px 10px 30px;
     height: 35px;
     width: 35px;
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: var(--black2);
     color: var(--white);
     border-radius: 5px;
+    transition: 0.3s all ease;
+}
+.keys .key:hover{
+    background-color: var(--black);
+    color: var(--cyan);
 }
 .keys .key i{
-    transition: 0.3s all ease;
     filter: opacity(0.9);
-}
-.keys .key i:hover{
-    color: var(--cyan);
-    text-shadow: 0 0 1px var(--white);
 }
 .quiz{
     margin-left: 20rem;
     position: relative;
     padding: 1rem;
     width: 25rem;
-    background-color: var(--black2);
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%, rgba(153, 155, 248, 0.123) 0%, rgba(94, 214, 253, 0.212) 100.2% );
     box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     background-color: var(--black2);
