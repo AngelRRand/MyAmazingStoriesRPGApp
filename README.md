@@ -1,7 +1,5 @@
 # Amazing Stories
 
-# Amazing Stories
-
 Version 0.3
 
 Modificacion en el arte del juego:
@@ -77,10 +75,6 @@ Tareas a conseguir:
 
 -Animación de personajes añadidos en el juego
 
-
 -Movimiento del usuario con teclas A,D.
-
-
-
 
 -Animación de personajes añadidos en el juego
