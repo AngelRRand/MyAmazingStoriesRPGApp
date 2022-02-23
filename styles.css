@@ -11,7 +11,10 @@ body{
     width:440px;
     height:248px;
     position: relative;
-    outline: 1px ridge wheat;
+    outline: 1px ridge rgb(232, 236, 250);
     margin: 0 auto;
-    margin-top: 10px;
+    transform: scale(2) translateY(40%);
+}
+.game-container canvas{
+    image-rendering: pixelated;
 }
