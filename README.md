@@ -38,44 +38,32 @@ Ideas:
 Incluir conceptos y personajes de cuentos populares.
 
 
-
-
-
-
-
-
-
-
-
-
-
 Version 0.3
 
+Modificacion en el arte del juego:
+
+
+Pixeles de personajes de frente ----------MaxAncho: 15      MaxAltura: 24
+Pixeles de personajes de perfil ----------MaxAncho: 15      MaxAltura: 24
+Usar colores claros - pastel
+Juego dirigido hacia el genero RPG por turnos
+Inspirado en pokemon
 
 
 Modificacion en el arte del juego:
 
-Pixeles de personajes de frente ----------MaxAncho: 15  -------------     MaxAltura: 24
-Pixeles de personajes de perfil ----------MaxAncho: 15  -------------     MaxAltura: 24
 
-Usar colores claros - pastel 
-
-Juego dirigido hacia el genero RPG por turnos Inspirado en pokemon
+Pixeles de personajes de frente ----------MaxAncho: 15      MaxAltura: 24
+Pixeles de personajes de perfil ----------MaxAncho: 15      MaxAltura: 24
+Usar colores claros - pastel
+Juego dirigido hacia el genero RPG por turnos
+Inspirado en pokemon
 
 <----------------------------------------------------------------------------------------------->
 
 Historia:
 
 Un joven y su grupo de amigos son encerrados en una biblioteca misteriosa. Dicha biblioteca era creadora de terribles fabulas y rumores que estremecian incluso a los adultos. Varias de las cuales coincidian con la invension de un extraño mundo, repleto de seres terribles. Uno de ellos sobresaliente por su inclusion en todos los cuentos, era el supuesto dueño de la biblioteca al que era coloquialmente llamado como el "el hombre de madera".
-
-
-
-
-
-
-
-
-
 
 
 
@@ -100,20 +88,13 @@ Pixeles de personajes de perfil ----------MaxAncho: 15      MaxAltura: 24
 
 
 
-
 <----------------------------------------------------------------------------------------------->
 
-
 Datos Imformativos
+
 <----------------------------------------------------------------------------------------------->
 
 El proyecto usa clases por que refleja muchos patrones comunes en los motores de videojuego
-
-
-
-
-
-
 
 
 
