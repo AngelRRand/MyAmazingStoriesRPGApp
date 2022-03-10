@@ -1,0 +1,26 @@
+{
+  "name": "amazing-stories",
+  "version": "1.0.0",
+  "description": "Version 0.3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelRRand/QuizPokemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelRRand/QuizPokemon/issues"
+  },
+  "homepage": "https://github.com/AngelRRand/QuizPokemon#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
